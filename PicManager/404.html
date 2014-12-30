@@ -1,0 +1,194 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Mobile App </title>
+<link href="styles/style.css" rel="stylesheet" type="text/css" />
+
+<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic' rel='stylesheet' type='text/css'/>
+<link href='http://fonts.googleapis.com/css?family=Dosis:200,300' rel='stylesheet' type='text/css'/>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+<script type="text/javascript">
+if (typeof jQuery == 'undefined') {
+    document.write(unescape("%3Cscript src='js/jquery.min.js' type='text/javascript'%3E%3C/script%3E"));
+}
+</script>
+<script type="text/javascript" src="js/jquery.lavalamp.min.js"></script>
+
+<script type="text/javascript" src="js/jquery.easing.min.js"></script>
+<script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
+<script type="text/javascript" src="js/feature_carousel.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<!--  Javascript files for Individual Project Slides in Recent Projects  -->
+<script type="text/javascript" src="js/jquery.cycle.all.js"></script>
+
+
+<script type="text/javascript">
+$(document).ready(function(){
+	socialIcon();
+	back2top();
+	lavaLamp();
+});
+</script>
+
+
+</head>
+
+
+
+<body>
+    <!--////////header////////-->
+    <div class="header">
+    	<div class="wrap">
+            <div class="company-logo">
+                <div class="logo"><a href="index.html">home</a></div>
+            </div>
+             <div class="menu-container">
+             	<div class="nav">
+                	<ul id="main_menu">
+                        <li class="current"><a href="index.html" id="home"> Home</a></li>
+                        <li ><a href="about.html">About us</a></li>
+                        <li><a href="#" >Other Pages</a>
+                            <ul>
+                                <li><a href="404.html">404 page</a></li>
+                                <li><a href="#">Themes &rsaquo;</a>
+                                    <ul>
+                                        <li><a href="../marketplace/index.html">Marketplace</a></li>
+                                        <li><a href="../google_play/index.html">Play Store</a></li>
+                                        <li><a href="../appstore/index.html">App Store</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="blog.html" >Blog</a></li>
+                    </ul>
+                </div><!-- end nav -->
+             </div><!-- end menu-container -->
+      	</div><!-- end wrap -->
+    </div>
+    <!--////////header end////////-->
+        
+    <!-- //////banner//////// -->
+    <div class="banner_small">
+        <div class="wrap">
+            <div class="page_title">
+                    <h1>404 Error</h1>
+           </div>        
+        </div>
+    </div>
+    <!--////////banner end //////// -->
+   
+    <!-- //////wrapper (main content) //////// -->
+	<div id="wrapper">
+		<div class="container404">
+        	<h1>Oops!</h1>
+            <p>Sorry, but the page you are looking for couldn't be found. Please check your url for errors, and refresh the page.</p>
+            <img src="images/404.png" alt=""/>
+        </div>
+       <!-- <div class="back_box"></div>-->
+	</div> 
+    <!-- ////// wrapper ////// -->
+                    
+    <!-- //////footer////// -->
+    <div class="footer">
+        <div class="strip_1">
+            <div class="strip_1_radial">
+                <div class="wrap">
+                    <div class="footer_watermark"></div>
+                    <div class="footer_box ">
+                        <div class="footer_title_styling">
+                            <h1> Quick Links </h1>
+                            <div class="footer_title_underline"></div>
+                        </div>
+                        <ul>
+                            <li><a href="about.html">About </a></li>
+                            <li><a href="blog.html">Blog </a></li>
+                            <li><a href="contact.html">Contact</a> </li>
+                            <li><a href="#">Support</a> </li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">Features</a></li>
+                            
+                            <li><a href="#">FAQ </a></li>
+                            <li><a href="#">Overview</a> </li>
+                        </ul>
+                    </div>
+                    <div class="footer_box">
+                        <div class="footer_title_styling">
+                            <h1> Social Media</h1>
+                            <div class="footer_title_underline"></div>
+                        </div>
+                            <p>
+                            We are just as active on popular social sites. Don't
+                            forget to follow us.
+                            </p>
+                            <a class="social_link" id="fb" href="#"></a>
+                            <a class="social_link" id="tw" href="#"></a>
+                            <a class="social_link" id="rss" href="#"></a> 
+                            <!--  Place this tag where you want the +1 button to render  -->
+                            <div class="google_plus">
+                            <!--  Place this tag where you want the +1 button to render  -->
+                            <g:plusone size="medium"></g:plusone>
+                            
+                            <!--  Place this render call where appropriate  -->
+                            <script type="text/javascript">
+                              (function() {
+                                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                                po.src = 'https://apis.google.com/js/plusone.js';
+                                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+                              })();
+                            </script>                            
+                            </div>
+                            <div class="facebook_like">
+                                <div id="fb-root"></div>
+                                <script type="text/javascript">
+                                  (function(d, s, id) {
+                                  var js, fjs = d.getElementsByTagName(s)[0];
+                                  if (d.getElementById(id)) return;
+                                  js = d.createElement(s); js.id = id;
+                                  js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1";
+                                  fjs.parentNode.insertBefore(js, fjs);
+                                }(document, 'script', 'facebook-jssdk'));</script>
+                                <div class="fb-like" data-send="false" data-layout="button_count" data-width="100" data-show-faces="false"></div> 
+                            </div>
+                    </div>
+                    <div class="footer_box">
+                        <div class="footer_title_styling">
+                            <h1> Newsletter </h1>
+                            <div class="footer_title_underline"></div>
+                        </div>
+                            <p>
+                            Subscribe to our newsletter and be the first to hear
+                            about latest offers and updates.
+                            </p>
+                            <div class="news_sub">
+                                <input type="text" onblur="if(this.value=='')this.value='Your Email Address';" onclick="if(this.value=='Your Email Address')this.value='';" value="Your Email Address" name="Email"/>
+                                <div class="secondary-button">
+                                    <div class="secondary-button-content">
+                                        <a href="#">Subscribe</a>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div><!-- strip_1 -->
+       
+        <div class="strip_2">
+            <div class="strip_2_shadow">
+                <div class="wrap">
+                    <div class="footer-logo">Mobile App</div>
+                    <p>© Copyright 2012 Mobile App </p>
+                </div>   
+            </div>     
+        </div><!-- strip_2 -->
+        
+    </div>
+    <!-- //////footer end////// -->
+        
+    <div id="goto_top"></div>
+</body>
+</html>

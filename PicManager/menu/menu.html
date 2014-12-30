@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+
+<!--lava lamp-->
+    <link rel="stylesheet" href="styles/lavalamp_test.css" type="text/css" media="screen">
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+<script type="text/javascript">
+if (typeof jQuery == 'undefined') {
+    document.write(unescape("%3Cscript src='js/jquery.min.js' type='text/javascript'%3E%3C/script%3E"));
+}
+</script>
+    <script type="text/javascript" src="js/jquery.easing.min.js"></script>
+    <script type="text/javascript" src="js/jquery.lavalamp.min.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            $("#1, #2, #3").lavaLamp({
+                fx: "backout", 
+                speed: 700,
+                click: function(event, menuItem) {
+                    return false;
+                }
+            });
+        });
+		</script>
+        <!--lavalamp end-->
+ // Subtle slide animation for sub-menus  
+    <script type="text/javascript">
+		$("#main_menu li").hover(function () {
+					$(this).children("ul").css({
+						visibility: "visible",
+						display: "none"
+					}).fadeIn("normal")
+				}, function () {
+					$("ul", this).css({
+						visibility: "hidden"
+					})
+				})
+		</script>
+
+
+
+<style type="text/css">
+
+
+body{
+	background:url(images/bg.jpg);
+	font-family: PT Sans;
+	}
+
+</style>
+</head>
+
+<body>
+
+
+          <div class="menu-container lavaLampWithImage" id="1">
+            
+                <ul class="nav" id="main_menu">
+                    <li><a href="index.html"><div id="home"> Home</div></a></li>
+                    <li><a href="about.html" >About us</a></li>
+                    <li><a href="contact.html">Contact</a>
+                    	<ul>
+                        	<li> drop down</li>
+                        </ul>
+                    </li>
+                    <li><a href="blog.html" >Blog</a></li>
+                    <li><a href="blog.html" >Drop down</a></li>
+                </ul>
+        
+            </div>
+           
+  <!--  <ul class="lavaLampWithImage" id="1">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Plant a tree</a></li>
+        <li><a href="#">Travel</a></li>
+        <li><a href="#">Ride an elephant</a></li>
+    </ul>
+ -->
+
+</body>
+</html>

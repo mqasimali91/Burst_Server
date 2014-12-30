@@ -1,0 +1,72 @@
+     /*-------------------------------------------------------------------------------------------
+	 ---------------------------------------Menu Lava lamp css---------------------------------------
+	 ------------------------------------------------------------------------------------------*/
+	    .menu-container {
+            position: relative;
+            overflow: hidden;
+        }
+                .menu-container li {
+                    float: left;
+                    list-style: none;
+                }
+				.menu-container .nav li:last-child {
+					background:none;
+					color:#F00;
+				}
+                    .menu-container li.back {
+                        background: url("../images/lava.png") no-repeat right -30px;
+                        z-index: 8;
+                        position: absolute;
+						margin: 9px 0 0 -16px;
+                    }
+                        .menu-container li.back .left {
+                            background: url("../images/lava.png") no-repeat top left;
+                            height: 30px;
+                            margin-right: 14px; /* 7px is the width of the rounded shape */
+                        }
+					.menu-container .nav li {
+						float: left;
+						list-style-type: none;
+						background: url(../images/menu-sep.png) no-repeat right top;
+						margin-right: 24px;
+						padding-right: 30px;
+						font-size:13px;
+					
+					}
+					.menu-container li a {
+                        text-decoration: none;
+                        text-align: center;
+						color: #fff;
+						text-decoration: none;
+                        text-transform: uppercase;
+                        letter-spacing: 0;
+                        z-index: 10;
+                        display: block;
+                        float: left;
+                        position: relative;
+                        overflow: hidden;
+						outline:0 none;
+                    }
+						.nav {
+							float: right;
+							height: 25px;
+						}
+			
+						.nav li #home{
+							background:url(../images/home.png) 0 -19px no-repeat;	
+							text-indent:-100000px;
+							height:18px;
+							width:19px;
+							display:block;
+						}
+						
+						.nav li #home{
+							background:url(../images/home.png) 0 -19px no-repeat;	
+							text-indent:-100000px;
+							height:18px;
+							width:19px;
+							display:block;
+						}
+	   /*-------------------------------------------------------------------------------------------
+	   -----------------------------------End of Lavalamp css---------------------------------------
+	   ------------------------------------------------------------------------------------------*/
